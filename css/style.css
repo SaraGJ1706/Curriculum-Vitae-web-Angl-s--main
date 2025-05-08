@@ -49,3 +49,10 @@
     height: 60px;
     justify-content: center;
 }
+
+#footer {
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+    text-align: center;
+    font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
+}
