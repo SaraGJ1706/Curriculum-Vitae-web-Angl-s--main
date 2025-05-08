@@ -56,3 +56,14 @@
     text-align: center;
     font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
 }
+
+.video {
+    width: 400px;
+    height: 200px;
+}
+
+.img {
+    width: 220px;
+    height: 275px;
+    justify-content: center;
+}
