@@ -1,0 +1,51 @@
+.bandera_idioma {
+    width: 30px;
+    height: 20px;
+}
+
+@font-face { /* Sirve para insertar una fuente de Google Font */
+    font-family: Tagesschrift-Regular; /* Especifica el nombre de la fuente */
+    src: url(../fonttype/Tagesschrift-Regular.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+}
+
+.h1 {
+    font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.titulos {
+    color: aliceblue;
+    background-color: rgb(33, 33, 33);
+    font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.titulos2 {
+    color: rgb(0, 0, 0);
+    font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: underline; /* Subraya el texto */
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.mapa {
+    width: 630px;
+    height: 400px;
+}
+
+.logo_patufet {
+    width: 65px;
+    height: 80px;
+    justify-content: center;
+}
+
+.logo_merce {
+    width: 80px;
+    height: 60px;
+    justify-content: center;
+}
