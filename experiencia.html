@@ -9,36 +9,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Curriculum</a>
-          <a class="nav-link" href="./index.html">
-            <img src="./img/planeta.svg" class="icono">
+    <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Curriculum</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Idiomas
           </a>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Idiomas
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./index.html">Español <img src="./img/español.jpg" class="bandera_idioma"></a></li>
-                  <li><a class="dropdown-item" href="./index_ingles.html">Inglés <img src="./img/ingles.jpg" class="bandera_idioma"></a></li>
-                </ul>
-              </li>
-            </ul>
-            <a class="nav-link" href="./experiencia.html">
-              <img src="./img/poster.svg" class="icono">
-            </a>
-            <a class="nav-link" href="./estudios.html">
-              <img src="./img/escuela.svg" class="icono">
-            </a>
-            <a class="nav-link" href="./index.html">
-              <img src="./img/identificador.svg" class="icono">
-            </a>
-          </div>
-        </div>
-      </nav>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./index.html">Español <img src="./img/español.jpg" class="bandera_idioma"></a></li>
+            <li><a class="dropdown-item" href="./index_ingles.html">Inglés <img src="./img/ingles.jpg" class="bandera_idioma"></a></li>
+          </ul>
+        </li>
+      </ul>
+      <a class="nav-link" href="./experiencia.html">
+        <img src="./img/poster.svg" class="icono">
+      </a>
+      <a class="nav-link" href="./estudios.html">
+        <img src="./img/escuela.svg" class="icono">
+      </a>
+      <a class="nav-link" href="./index.html">
+        <img src="./img/identificador.svg" class="icono">
+      </a>
+    </div>
+  </div>
+</nav>
+      </div>
+    </div>
       <br>
       <div class="col-lg-12 col-md-12 col-sm-12">
         <h1 class="titulos">Experiencia laboral</h1>
@@ -51,11 +55,15 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <p><strong>Patufet San Jordi <img src="./img/patufet.jpg" class="logo_patufet "></strong></p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.759657071146!2d2.1001514758770425!3d41.357577471303664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4992125618ff5%3A0x7cf0512ebbb46f68!2sEscola%20Patufet%20Sant%20Jordi!5e0!3m2!1ses!2ses!4v1746713114423!5m2!1ses!2ses" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.759657071146!2d2.1001514758770425!3d41.357577471303664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4992125618ff5%3A0x7cf0512ebbb46f68!2sEscola%20Patufet%20Sant%20Jordi!5e0!3m2!1ses!2ses!4v1746713114423!5m2!1ses!2ses" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <p><strong>Merce Rodoreda <img src="./img/merce .jpg" class="logo_merce"></strong></p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.759657071146!2d2.1001514758770425!3d41.357577471303664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d87782cad1%3A0x4c23f2d18b6a383b!2sInstituto%20p%C3%BAblico%20Merc%C3%A8%20Rodoreda!5e0!3m2!1ses!2ses!4v1746713495943!5m2!1ses!2ses" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.759657071146!2d2.1001514758770425!3d41.357577471303664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d87782cad1%3A0x4c23f2d18b6a383b!2sInstituto%20p%C3%BAblico%20Merc%C3%A8%20Rodoreda!5e0!3m2!1ses!2ses!4v1746713495943!5m2!1ses!2ses" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <br>
