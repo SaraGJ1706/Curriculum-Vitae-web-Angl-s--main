@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tituo de la web (aparece en la parte de arriba de la pestaña)-->
     <title>¿Quien soy?</title>
+    <!--Link a la hoja de estilos CSS-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--Link a la hoja de estilos de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!--Link al script de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!--Barra de busqueda de la web-->
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
@@ -18,17 +23,20 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
+      <!--Desplegable con el idoma en ingles y español-->
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Idiomas
           </a>
+          <!--Idioma con su correspondiente bandera dentro del desplegable-->
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./index.html">Español <img src="./img/español.jpg" class="bandera_idioma"></a></li>
             <li><a class="dropdown-item" href="./index_ingles.html">Inglés <img src="./img/ingles.jpg" class="bandera_idioma"></a></li>
           </ul>
         </li>
       </ul>
+      <!--Icoonos de la navbar con un hipervinculo a su web correspondiente-->
       <a class="nav-link" href="./experiencia.html">
         <img src="./img/poster.svg" class="icono">
       </a>
@@ -44,19 +52,24 @@
       </div>
     </div>
       <br>
+      <!--Inicio de la pagina-->
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
+              <!--Titulo inicial-->
                 <h1 class="h1">Curriculum</h1>
                 <br>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
+              <!--Subtitulo de la pagina-->
                 <h1 class="titulos">¿Quien soy?</h1>
             </div>
         </div>
+        <!--Primer apartado de la web "¿Quien soy?"-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <br>
+                    <!--Apartado de datos personales-->
                     <h3>Datos personales:</h3>
                     <p>Nombre: Sara Galan Jimenez</p>
                     <p>Fecha de nacimento: 17/06/2007</p>
@@ -65,41 +78,55 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <br>
+                    <!--Apartado de la descripcion personal-->
                     <h3>Descripcion personal</h3>
                     <p>Soy una persona intrbertida a la que le gusta pasar su tiempo libre dibujando, jugando videojuegos o incluso viendo algun anime/serie. Por las tardes suelo estar en llamada con amigos por la aplicacion Discord, haciendo algunas de las actividades antes mencionadas</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <br>
+                    <!--Video curriculum en Español (Video de YouTube)-->
                     <iframe class="video" src="https://www.youtube.com/embed/AiSa2MVV7E8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
+        <!--Segundo apartado de la web-->
             <div class="col-lg-12 col-md-12 col-sm-12">
               <br>
+              <!--Titulo del segundo apartado-->
                 <h1 class="titulos2">Actividades que hago en mi tiempo libre</h1>
             </div>
+            <!--Dos card con el apartado de gustos y aficiones-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
+                  <!--Card con los gustos-->  
+                  <div class="card" style="width: 18rem;">
                         <div class="card-body">
+                          <!--Titulo de la card de gustos-->
                           <h5 class="card-title">Gustos</h5>
+                          <!-- Descripcion de la card de gustos-->
                           <p class="card-text">Como ya he dicho antes, me gusta jugar a videojuegos, principlamente RPGs, siendo mi favorito y el que mas veces he jugado, Undertale.</p>
+                          <!--Dibujo de la card-->
                           <img src="./img/dibujo.jpg" class="card-img-top" alt="dibujo">
                         </div>
                       </div>
                 </div>
+                <!--Card con las aficiones-->
                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
+                          <!--Titulo de la card de aficiones-->
                           <h5 class="card-title">Aficiones</h5>
+                          <!--Descripcion de la card de aficiones-->
                           <p class="card-text">Una de las cosas que hago con frecuencia para matar el tiempo y a modo de aficion es dibujar, esto lo hago desde que tengo uso de razon, y principelmente, dibujo personajes de series o juegos de ficcion que he visto o jugado.</p>
+                          <!--Imagen de la card-->
                           <img src="./img/undertale.jpg" class="img" alt="undertale">
                         </div>
                       </div>
                 </div>
             </div>
         </div>
+        <!--Footer de la web-->
         <div class="row" id="footer">
           <div class="col-lg-6 col-md-12 col-sm-12">
             <br>

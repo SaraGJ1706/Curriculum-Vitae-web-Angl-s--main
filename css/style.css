@@ -1,69 +1,81 @@
+/*Tamaño de los iconos de la bandera del desplegable situado en la navbar*/
 .bandera_idioma {
-    width: 30px;
-    height: 20px;
+    width: 30px; /* Ancho de la bandera */
+    height: 20px; /* Alto de la bandera */
 }
 
+/*Especificacion de la tipografia de los titulos de la web*/
 @font-face { /* Sirve para insertar una fuente de Google Font */
     font-family: Tagesschrift-Regular; /* Especifica el nombre de la fuente */
     src: url(../fonttype/Tagesschrift-Regular.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
 }
 
+/*Estilo de los encabezados h1*/
 .h1 {
     font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
     text-align: center; /* Alinea el texto al centro */
 }
 
+/*Estilo de los encabezados h2, y titulos principles de cada pagina*/
 .titulos {
-    color: aliceblue;
-    background-color: rgb(33, 33, 33);
+    color: aliceblue; /* Color del texto */
+    background-color: rgb(33, 33, 33); /* Color de fondo del texto */
     font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
     text-align: center; /* Alinea el texto al centro */
 }
 
+/*Estilo de los encabezados h2, y subtitulos de las paginas*/
 .titulos2 {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /* Color del texto */
     font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
     text-align: center; /* Alinea el texto al centro */
     text-decoration: underline; /* Subraya el texto */
 }
 
+/*Estilo de los iconos de la navbar (lado derecho de la misma)*/
 .icono {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
+    width: 30px; /* Ancho del icono */
+    height: 30px; /* Alto del icono */
+    margin-left: 10px; /* Margen izquierdo del icono */
 }
 
+/*Tamaño de los mapas de las paginas de estudios y experiencias*/
 .mapa {
-    width: 630px;
-    height: 400px;
+    width: 630px; /* Ancho del mapa */
+    height: 400px; /* Alto del mapa */
 }
 
+/*Estilo de la imagen con el logo de la empresa Patufet*/
 .logo_patufet {
-    width: 65px;
-    height: 80px;
-    justify-content: center;
+    width: 65px; /* Ancho del logo */
+    height: 80px; /* Alto del logo */
+    justify-content: center; /* Centra el logo */
 }
 
+/*Estilo de la imagen con el logo de la empresa Merce*/
 .logo_merce {
-    width: 80px;
-    height: 60px;
-    justify-content: center;
+    width: 80px; /* Ancho del logo */
+    height: 60px; /* Alto del logo */
+    justify-content: center; /* Centra el logo */
 }
 
+/*Estilo del encabezado del pie de pagina*/
 #footer {
-    background-color: rgb(33, 33, 33);
-    color: aliceblue;
-    text-align: center;
+    background-color: rgb(33, 33, 33); /* Color de fondo del pie de pagina */
+    color: aliceblue; /* Color del texto del pie de pagina */
+    text-align: center; /* Alinea el texto al centro */
     font-family: Tagesschrift-Regular; /* Especifica al body que fuente vamos a utilizar */
 }
 
+/*Estilo del video de la pagina inicial*/
 .video {
-    width: 400px;
-    height: 200px;
+    width: 400px; /* Ancho del video */
+    height: 200px; /* Alto del video */
 }
 
+/*Estilo de la imagen de la pagina inicial*/
 .img {
-    width: 220px;
-    height: 275px;
-    justify-content: center;
+    width: 220px; /* Ancho de la imagen */
+    height: 275px; /* Alto de la imagen */
+    justify-content: center; /* Centra la imagen */
 }
